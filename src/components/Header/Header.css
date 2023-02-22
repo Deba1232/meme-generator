@@ -1,0 +1,17 @@
+.header{
+    background-image: linear-gradient(to right,#672280,#a626d3);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+}
+
+.header > img{
+    width: 2.5rem;
+    object-fit: contain;
+}
+
+.header > h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+}

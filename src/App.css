@@ -1,0 +1,10 @@
+.app{
+    font-family: 'Karla';
+    width: 550px;
+    height: 542px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
