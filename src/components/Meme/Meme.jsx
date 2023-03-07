@@ -32,9 +32,7 @@ function Meme(){
             </div>
 
             <div className="image--container">
-
-                <img src={memeImage} alt="" className='meme__image' />
-
+                <img src={memeImage} alt="" className='meme--image' />
             </div>
 
         </div>
