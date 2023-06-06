@@ -7,18 +7,17 @@ function Meme(){
     const [meme,setMeme] = useState({
         topText: "",
         bottomText: "",
-        randomImage: "http://i.imgflip.com/1bij.jpg",
+        randomImage: "",
     });
 
     const [allMemes,setAllMemes] = useState({});
 
     useEffect(() => {
-
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(data => setAllMemes(data));
     }, []);
-
+        
     function handleChange(event){
         const {name, value} = event.target;
 
